@@ -1,11 +1,46 @@
-/* 
+.titulo {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 100;
+  font-size: 8rem;
+  letter-spacing: 3px;
+  color: #ead3d3;
+  text-align: center;
+  margin-bottom: 1rem;
+}
 
-    You can write your own styles here...
-    
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
+.todo-wrapper {
+  width: 650px;
+}
 
-*/
+.todo-card {
+  background: white;
+  border: 1px solid #ddd;
+  box-shadow: 0 8px 18px rgba(0, 0, 0, 0.18);
+}
+
+.input-todo {
+  height: 4.5rem;
+  font-size: 1.6rem;
+  font-weight: 300;
+  color: #848282;
+  padding-left: 3rem;
+}
+
+.input-todo::placeholder {
+  color: rgba(0, 0, 0, 0.25);
+}
+
+.todo-item {
+  height: 4.5rem;
+  font-size: 1.6rem;
+  font-weight: 300;
+  color: #848282;
+  padding-left: 3rem;
+  padding-right: 1.5rem;
+}
+
+.todo-footer {
+  font-size: 0.9rem;
+  color: #b5b5b5;
+  padding: 0.8rem 1rem;
+}

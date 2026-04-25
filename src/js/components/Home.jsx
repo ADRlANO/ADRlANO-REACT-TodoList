@@ -1,28 +1,22 @@
-import React from "react";
+import Title from "./Title";
+import TodoInput from "./TodoInput";
+import TodoList from "./TodoList";
+import TodoFooter from "./TodoFooter";
 
-//include images into your bundle
-import rigoImage from "../../img/rigo-baby.jpg";
-
-//create your first component
 const Home = () => {
-	return (
-		<div className="text-center">
-            
+  return (
+    <div className="bg-light min-vh-100 d-flex justify-content-center align-items-center">
+      <div className="todo-wrapper">
+        <Title />
 
-			<h1 className="text-center mt-5">Hello Rigo!</h1>
-			<p>
-				<img src={rigoImage} />
-			</p>
-			<a href="#" className="btn btn-success">
-				If you see this green button... bootstrap is working...
-			</a>
-			<p>
-				Made by{" "}
-				<a href="http://www.4geeksacademy.com">4Geeks Academy</a>, with
-				love!
-			</p>
-		</div>
-	);
+        <div className="todo-card">
+          <TodoInput />
+          <TodoList />
+          <TodoFooter />
+        </div>
+      </div>
+    </div>
+  );
 };
 
 export default Home;
