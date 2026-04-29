@@ -45,10 +45,6 @@
   padding: 0.8rem 1rem;
 }
 
-.delete-todo-action {
-  display: none
-}
-.todo-item:hover .delete-todo-action {
-  display: inline-block;
-  cursor: pointer;
+.todo-action {
+  cursor: pointer
 }
