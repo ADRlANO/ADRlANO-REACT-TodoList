@@ -10,7 +10,12 @@
 - [x] Después de borrar una tarea, refrescar la lista con GET.
 - [x] Crear un botón para borrar todas las tareas.
 - [x] Al borrar todas las tareas, actualizar la lista en pantalla.
-- [ ] Mostrar un spinner de Bootstrap mientras carga la API.
+- [x] Agregar Bootstrap
+- [x] Mostrar un spinner de Bootstrap mientras carga la API.
+- [x] Mostrar un spinner de Bootstrap mientras se elimina una tarea.
+- [x] Mostrar un spinner de Bootstrap mientras se agrega una tarea.
+- [x] Mostrar un spinner de Bootstrap mientras se edita una tarea.
+- [x] Manejo de errores
 - [x] Mostrar ✅ si is_done está en true.
 - [x] Mostrar ❌ en rojo si is_done está en false.
 - [x] Al hacer click en el icono ✅/❌, cambiar el estado de la tarea en la API.
